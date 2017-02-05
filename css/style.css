@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+}
+.google_head {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  margin-bottom: -5px;
+}
+.google {
+  width: 100%;
+}
+.bg1 {
+  width: 100%;
+  height: 175px;
+  margin: auto;
+  clear: both;
+  background: url(../image/bg1.jpg) repeat-x;
+}
+.bg2 {
+  width: 100%;
+  min-height: 845px;
+  background: url(../image/bg2.jpg) center top;
+  background-size: auto;
+}
+.header {
+  width: 1018px;
+  height: 175px;
+  margin: auto;
+  background: url(../image/white_main.png) no-repeat center top;
+  font-size: 12px;
+  font-family: "Tahoma";
+  color: #128aa7;
+  text-align: left;
+  clear: both;
+}
+.logo {
+  float: left;
+  width: 283px;
+  height: 165px;
+  background: url(../image/logo.png) center no-repeat;
+  margin-left: 35px;
+  margin-top: 10px;
+  clear: both;
+}
+.text {
+  padding-left: 75px;
+  padding-top: 100px;
+  line-height: 1.2;
+}
+.right_side {
+  width: 370px;
+  height: 170px;
+  float: right;
+}
+.contacts {
+  float: right;
+  margin-top: 10px;
+  margin-right: 35px;
+}
+.contacts p {
+  margin-bottom: 5px;
+}
+.our_contacts {
+  line-height: 1.2;
+  text-align: left;
+  font-weight: bold;
+}
+.countries {
+  float: right;
+  width: 367px;
+  height: 60px;
+  margin-top: 28px;
+}
+.flag {
+  float: right;
+  margin-right: 35px;
+}
+.links li{
+  float: left;
+  display: inline-block;
+  width: 55px;
+  height: 10px;
+  margin-right: 2px;
+}
+.links a {
+  display: block;
+  font-size: 10px;
+  font-family: "Tahoma";
+  color: #128aa7;
+  text-align: center;;
+}
+.white_main {
+  width: 1018px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  background: url(../image/white_main.png) repeat-y center bottom;
+  background-size: cover;
+}
+.foto {
+  width: 1000px;
+  height: 237px;
+  margin: auto;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #128aa7;
+  background: url(../image/photo.jpg) center;
+}
+.menu {
+  width: 1000px;
+  height: 34px;
+  margin: auto;
+  background: url("../image/panel.png") repeat-x center;
+}
+.sections {
+  list-style: none;
+  display: block;
+  position: relative;
+  left: 15px;
+  margin: auto;
+  z-index: 5;
+}
+.sections li {
+  width: 120px;
+  height: 36px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  color: #d5d5d5;
+}
+.item:first-child {
+  margin-left: 10px;
+}
+.item:nth-child(6) {
+  margin-left: 15px;
+}
+.top {
+  padding-top: 7px;
+  display: block;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+.sections__list {
+  position: relative;
+}
+.sections__list:hover .sections__drop {
+  opacity: 1;
+}
+.sections__drop {
+  position: absolute;
+  top: 30px;
+  width: 150px;
+  padding-bottom: 5px;
+  font-size: 14px;
+  font-family: "Tahoma";
+  background-color: rgb(48, 48, 48);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  opacity: 0;
+}
+.sections__drop li {
+  width: 150px;
+  height: 25px;
+  margin-left: 0;
+  text-align: left;
+  padding-left: 10px;
+}
+.sections__drop a {
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: #d5d5d5;
+  line-height: 1.714;
+  text-align: left;
+}
+.content {
+  width: 1000px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  overflow: auto;
+  padding-bottom: 5px;
+}
+.fon3 {
+  width: 1000px;
+  margin: auto;
+  background: #edeef0;
+  overflow: hidden;
+  position: relative;
+}
+.fon2 {
+  float: left;
+  width: 1000px;
+  background: #ffffff;
+  position: relative;
+  right: 210px;
+  border-right: 1px solid #c7cacf;
+}
+.fon1 {
+  float: left;
+  width: 1000px;
+  background: #edeef0;
+  position: relative;
+  right: 580px;
+  border-right: 1px solid #c7cacf;
+}
+.leftColumn {
+  float: left;
+  width: 210px;
+  position: relative;
+  left: 790px;
+  line-height: 1.7;
+}
+.centerColumn {
+  width: 580px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  left: 7900px;
+}
+.rightColumn {
+  width: 210px;
+  float: right;
+  overflow: hidden;
+  position: relative;
+  left: 790px;
+  line-height: 1.7;
+}
+h1 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Tahoma";
+  color: #424c43;
+}
+.lorem {
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: #424c43;
+}
+.footer {
+  width: 100%;
+  height: 30px;
+  left: 0;
+  bottom: 0;
+  clear: both;;
+}
+.copyright {
+  margin: auto;
+  font-size: 12px;
+  font-family: "Tahoma";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 2;
+  text-align: center;
+}
