@@ -4,15 +4,7 @@
 }
 body {
 }
-.google_head {
-  width: 100%;
-  height: 100%;
-  z-index: 10;
-  margin-bottom: -5px;
-}
-.google {
-  width: 100%;
-}
+
 .bg1 {
   width: 100%;
   height: 175px;
@@ -27,10 +19,11 @@ body {
   background-size: auto;
 }
 .header {
-  width: 1018px;
+  width: 1000px;
+  background-color: #ffffff;
   height: 175px;
   margin: auto;
-  background: url(../image/white_main.png) no-repeat center top;
+  box-shadow: 0px 5px 7px 0px #031d28;
   font-size: 12px;
   font-family: "Tahoma";
   color: #128aa7;
@@ -52,14 +45,14 @@ body {
   line-height: 1.2;
 }
 .right_side {
-  width: 370px;
+  width: 340px;
   height: 170px;
+  margin-right: 35px;
   float: right;
 }
 .contacts {
   float: right;
   margin-top: 10px;
-  margin-right: 35px;
 }
 .contacts p {
   margin-bottom: 5px;
@@ -69,37 +62,68 @@ body {
   text-align: left;
   font-weight: bold;
 }
-.countries {
+.flags {
   float: right;
-  width: 367px;
-  height: 60px;
-  margin-top: 28px;
+  overflow: hidden;
+  width: 340px;
+  height: 42px;
+  margin-top: 30px;
 }
-.flag {
+.flags li {
+  float: right;;
+  list-style: none;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+.flags a {
+  display: block;
+  width: 42px;
+  height: 42px;
+  background: url(../image/flags.png) no-repeat;
+}
+.flags .nepal {
+  background-position: -41px 0;
+}
+.flags .tibet {
+  background-position: -82px 0;
+}
+.flags .bhutan {
+  background-position: -123px 0;
+}
+.flags .sri_lanka {
+  background-position: -164px 0;
+}
+.flags .maldives {
+  background-position: -205px 0;
+}
+.links {
+  position: relative;
   float: right;
-  margin-right: 35px;
+  margin-top: 2px;
 }
 .links li{
   float: left;
   display: inline-block;
-  width: 55px;
+  width: 56px;
   height: 10px;
-  margin-right: 2px;
+}
+.link:last-child {
+  margin-right: 0;
 }
 .links a {
   display: block;
   font-size: 10px;
   font-family: "Tahoma";
   color: #128aa7;
-  text-align: center;;
+  text-align: center;
 }
 .white_main {
-  width: 1018px;
+  width: 1000px;
+  background-color: #ffffff;
   height: 100%;
   margin: auto;
+  box-shadow: 0px 5px 7px 0px #031d28;
   position: relative;
-  background: url(../image/white_main.png) repeat-y center bottom;
-  background-size: cover;
 }
 .foto {
   width: 1000px;
@@ -259,6 +283,6 @@ h1 {
   font-size: 12px;
   font-family: "Tahoma";
   color: rgba(255, 255, 255, 0.8);
-  line-height: 2;
+  line-height: 3;
   text-align: center;
 }
